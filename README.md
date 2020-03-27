@@ -88,6 +88,7 @@ Modify your `app/config/config.yml`
         forgot_password_form: true
 
 You can disable captcha protection just setting one or both values to `false`
+You will also need to declare `ez_captcha.config: ~` in your parameters. 
 
 Options
 ========
